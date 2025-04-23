@@ -72,6 +72,7 @@ section h3 {
 
 .activity-card p {
   margin-bottom: 8px;
+  word-wrap: break-word; /* Ensure long participant lists wrap properly */
 }
 
 .form-group {
@@ -108,7 +109,7 @@ button:hover {
   background-color: #3949ab;
 }
 
-.message {
+message {
   margin-top: 20px;
   padding: 10px;
   border-radius: 4px;
